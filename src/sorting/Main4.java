@@ -7,14 +7,14 @@ import java.util.Random;
 public class Main4 {
 
     public static void main(String[] args) {
-        List<Integer> input = new ArrayList<>();
+        BinaryHeap heapSort = new BinaryHeap();
         Random random = new Random();
-        for (int i = 0; i < 7; i++) {
-            input.add(random.nextInt(0, 31));
+        List<Integer> list = new ArrayList<>();
+        for (int i = 0; i < 10; i++) {
+            list.add(random.nextInt(0, 53));
         }
-        HeapSort heap = new HeapSort((i1, i2) -> Integer.compare(i1, i2), input);
-        heap.createHeap();
-        System.out.println(heap);
+        System.out.println(list);
+        list = heapSort.buildHeapFloyd(list);
+        System.out.println(list);
     }
-
 }
