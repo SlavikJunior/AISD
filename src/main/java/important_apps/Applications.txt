@@ -1,0 +1,23 @@
+﻿Приложение,Важность (value),Размер (MB)
+WhatsApp,4,3
+VPN,10,7
+X,1,1
+Email,10,6
+Pinterest,5,4
+Instagram,7,5
+Duolingo,5,4
+Yandex,1,2
+Telegram,10,6
+ClashRoyale,8,8
+BrawlStars,10,7
+TikTok,1,4
+YouTube,9,7
+Vkontakte,2,3
+Bank,7,4
+Ozon,1,3
+Wildberries,5,2
+DeepSeek,10,8
+Заметки,8,5
+Госуслуги,6,4
+Яндекс Карты,9,6
+Музыка,8,6

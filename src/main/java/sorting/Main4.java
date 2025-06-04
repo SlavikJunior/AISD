@@ -11,7 +11,7 @@ public class Main4 {
         Random random = new Random();
         List<Integer> list = new ArrayList<>();
         for (int i = 0; i < 7; i++) {
-            list.add(random.nextInt(0, 53));
+//            list.add(random.nextInt(0, 53));
         }
         System.out.println("Исходный список: " + list);
         list = heapSort.sort(list);

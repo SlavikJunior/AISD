@@ -75,10 +75,6 @@ public class BinaryHeap {
         list.set(j, temp);
     }
 
-    public List<Integer> getHeap() {
-        return new ArrayList<>(storage);
-    }
-
     public List<Integer> sort(List<Integer> inputList) {
         storage = new ArrayList<>(inputList);
         size = storage.size();
